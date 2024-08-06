@@ -1,0 +1,62 @@
+/** {border: 1px solid red;}*/
+body {
+  font-family: "Open Sans",'Courier New', Courier, monospace;
+  max-width: 1434px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  max-width: 1434px;
+  max-height: 75px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+}
+
+:link,
+:visited {
+  text-decoration: none;
+  color: #828282;
+}
+
+#special :visited {
+  color: black;
+}
+
+.hero {
+  display: grid;
+  justify-content: center;
+  max-width: 1434px;
+  max-height: 75px;
+}
+
+.custom-hr {
+  width: 970px;
+  height: 1px;
+  background-color: #828282;
+  border: none;
+  margin: auto;
+}
+
+.hero, p {
+  font-size:48px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.photox940 {
+  width: 970px;
+  height: 387px;
+  display: flex;
+  margin: auto;
+  top: 50px;
+}
