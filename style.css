@@ -1,14 +1,20 @@
 /** {border: 1px solid red;}*/
 body {
+  margin: auto;
+  flex-direction: column;
   font-family: "Open Sans",'Courier New', Courier, monospace;
-  max-width: 1434px;
+  /*max-width: 1434px;*/
+  align-items: center;
+  width: 1440px;
+  height: 4521px;
 }
 
 header {
   display: flex;
   justify-content: center;
-  max-width: 1434px;
-  max-height: 75px;
+  /*max-width: 1434px;*/
+  width: 1440;
+  /*max-height: 75px;*/
   margin: auto;
 }
 
@@ -30,11 +36,20 @@ ul {
   color: black;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  
+
+}
 .hero {
   display: grid;
   justify-content: center;
-  max-width: 1434px;
-  max-height: 75px;
+  /*max-width: 1434px;
+  max-height: 75px;*/
+  justify-content: center;
+  width: 970;
+  margin: auto;
 }
 
 .custom-hr {
@@ -45,7 +60,7 @@ ul {
   margin: auto;
 }
 
-.hero, p {
+.hero p {
   font-size:48px;
   font-weight: bold;
   margin-top: 4px;
@@ -53,10 +68,118 @@ ul {
   color: black;
 }
 
-.photox940 {
+/*.photox940 {
+  display: block;
   width: 970px;
   height: 387px;
   display: flex;
   margin: auto;
   top: 50px;
+}*/
+
+img {
+  display: block;
+  margin: auto;
+  width: 970px;
+  height: 387px;
+}
+
+.about  {
+  width: 1440;
+  height: 500;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  background-color: #F6F6F6;
+
+}
+h2 {
+  align-items: center;
+  font-size: 34px;
+  font-weight: bold;
+  color: black;
+}
+
+.about h2 { 
+  margin-top: 100px;
+  margin-bottom: 50px;
+  
+}
+
+.about p {
+  font-size: 18px;
+  font-weight: regular;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.skills  {
+  padding: 100px;
+  width: 970;
+  height: 564;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.skills h2 {
+  margin-bottom: 20px;
+}
+
+.skills p {
+  font-size: 18px;
+  font-weight: regular;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.skills li p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  color: #808080;
+
+}.skills img {
+  width: 80px;
+  height: 80px;
+
+}
+
+.stars img {
+  width: 26px;
+  height: 26px;
+  
+}
+.stars {
+  display: flex;
+  margin-top: 60px;
+  gap: 10px;
+}
+#name {
+  margin-right: 55px;
+}
+
+.portfolio{
+  display: grid;
+  align-items: center;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.portfolio p {
+  align-items: center;
+  font-size: 18px;
+  font-weight: regular;
+  text-decoration: underline;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  color: black;
+}
+
+.portfolio img {
+  width: 970px;
+  height: 540px;
 }
