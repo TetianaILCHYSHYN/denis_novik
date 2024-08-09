@@ -24,12 +24,17 @@ ul {
   display: flex;
   gap: 40px;
   font-size: 18px;
+  transition: font-weight 0.3s;
+}
+ul a:hover {
+font-weight: bold;
 }
 
 :link,
 :visited {
   text-decoration: none;
   color: #828282;
+
 }
 
 #special :visited {
@@ -39,7 +44,6 @@ ul {
 section {
   display: flex;
   justify-content: center;
-
 
 }
 
@@ -228,9 +232,14 @@ button {
   color: white;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
+  transition:  background-color 0.5s, color 0.5s
 
 }
-
+button:hover {
+  background-color:pink ;
+  color:purple ;
+}
 
 
 .container {
@@ -239,12 +248,18 @@ button {
   width: 120px;
   justify-content: center;
   gap: 50px;
-
+  
 }
 
 footer img {
   margin-top: 30px;
   width: 40px;
   height: 40px;
+  transition: opacity 0.3s;
 
+}
+
+footer img:hover {
+  opacity: 0.5;
+  
 }
